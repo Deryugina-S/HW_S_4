@@ -29,3 +29,22 @@ a = a / 10;
 sum = sum + num;
 }
 Console.WriteLine("Cумма цифр в числе равна: " + sum);
+
+
+
+// Задача 3/ (29): Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+
+int [] numbers = {1, 2, 5, 7, 19}; //Введен массив данных, который нужно вывести
+Console.Write("[");
+
+for (int i = 0; i < numbers.Length; i++)
+ {
+    numbers [i] = numbers [i];
+    Console.Write(" " + Method (i) + " ");
+ }
+Console.Write("]");
+
+int Method (int a)
+{
+    return numbers[a];
+}
